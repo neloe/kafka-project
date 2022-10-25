@@ -41,11 +41,10 @@ Here is what we know about the data coming in:
 
 When running a barbeque smoker, an accomplished (or even novice) pitmaster will closely monitor the temperatures of the cooking implement and the food to ensure everything is tasty. Often on long cooks, the following (less than favorable) events can happen:
 
-
 * The temperature of the smoker can suddenly drop.
 * The food hits a temperature where it is attempting to evaporate moisture, and it stays close to this temperature for an extended period of time (much like humans sweat to regulate temperature). We call this the "stall". The food will only hit its stall *once*
 
-Modern technology has graced us with thermometers that allow us to track and record temperatures and keep a history of the temperatures of both the smoker and the food over time. We will be working with a data set generated from a thermometer that records the temperature \emph{every thirty seconds}. The particular meal involved two different channels of data for food and the temperature of the smoker. We will be looking at sliding windows of data to detect the events described above. Specifically:
+Modern technology has graced us with thermometers that allow us to track and record temperatures and keep a history of the temperatures of both the smoker and the food over time. We will be working with a data set generated from a thermometer that records the temperature *every thirty seconds*. The particular meal involved two different channels of data for food and the temperature of the smoker. We will be looking at sliding windows of data to detect the events described above. Specifically:
 
 * If the temperature of the smoker drops more than 15 degrees in 2.5 minutes, we want to alert the pitmaster that the smoker needs attention
 * If the temperature of the food does not change by more than one degree over a 10 minute time period, we want to report that the food has hit the stall

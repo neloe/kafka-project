@@ -13,6 +13,8 @@ To run your Conusmer from a terminal, run
 mvn compile exec:java '-Dexec.mainClass="com.mycompany.app.Consumer"'
 ```
 
+You should also be able to open this project in Netbeans, IntelliJ, or Eclipse; you are responsible for knowing how to run your own code.
+
 ## Project Requirements
 
 ### Create Topic (or Topics)

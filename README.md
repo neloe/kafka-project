@@ -85,10 +85,10 @@ Your Consumer code must:
 Submit to the course website a document (docx or pdf) with the following:
 
 1. Answers to the following questions:
-  1. What times did the smoker need attention?
-  1. What time did the food on channel 1 hit its stall?
-  1. What time did the food on channel 2 hit its stall?
-  1. Do you think other windowing approaches or considering the entire temperature history would be more appropriate for the questions we are trying to answer?  Why or why not?
+    1. What times did the smoker need attention?
+    1. What time did the food on channel 1 hit its stall?
+    1. What time did the food on channel 2 hit its stall?
+    1. Do you think other windowing approaches or considering the entire temperature history would be more appropriate for the questions we are trying to answer?  Why or why not?
 1. Screenshots of your code running *on your computer* showing the output that you generated.  Your screenshots must have some kind of indication that it is you running the code.
 
 Print your consumer code to PDF and submit it as a separate document.
